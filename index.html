@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByM Nacionales</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <script src="./js/secuencia-uno.js"></script>
+</head>
+
+<body>
+    <section>
+        <h2>Primera Entrega JS</h2>
+        <main>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/pagina1.html">Intento 2</a></li>
+            </ul>
+        </main>
+        <h3>Casa de Cambio</h3>
+        <form class="formulario">
+            <p>Selecionar una Moneda a Enviar:</p>
+            <input type="radio" name="cambio" id="uno">Dolar
+            <input type="radio" name="cambio" id="dos">Euro
+            <p>Ingrese Monto en Pesos Argentinos</p>
+            <input type="number" id="valor" min="1" max="999999">
+            <br><br>
+            <input type="button" id="cotizador" value="Cotizar" onclick="convertir()">
+        </form>
+    </section>
+</body>
+
+</html>
